@@ -25,5 +25,8 @@ Configutation:
     - name: org.springframework.web
       level: debug
 
+    - name: org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping
+      level: info
+
     - name: org.thymeleaf
       level: debug
